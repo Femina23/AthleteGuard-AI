@@ -274,6 +274,10 @@ This project is developed for educational and academic purposes. See the reposit
 
 **Femina**  
 
+[![GitHub](https://img.shields.io/badge/GitHub-Femina23-181717?style=for-the-badge&logo=github)](https://github.com/Femina23)
+
+---
+
 <p align="center">
   <strong>Train Smarter. Move Better. Perform Stronger.</strong>
 </p>
