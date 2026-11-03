@@ -1,55 +1,72 @@
 # AthleteGuard AI
 
-AI-Powered Multi-Sport Performance Monitoring and Injury Risk Awareness System
+AI-powered real-time pose analysis for athletes. Track form, count reps, and get instant movement feedback using MediaPipe Pose Landmarker.
 
 ## Features
 
-- **Real-Time Pose Detection**: MediaPipe Pose Landmarker integration with webcam
-- **Multi-Sport Analysis**: Squat, Running, and Basketball monitoring
-- **Movement Risk Awareness**: Explainable rule-based feedback
-- **Performance Analytics**: Charts and session history with Recharts
-- **Privacy First**: All processing happens in-browser, no data uploaded
+- **Live AI Monitoring** – Real-time pose detection and form analysis via MediaPipe Pose Landmarker
+- **Multi-Sport Support** – Strength Training (Squats), Running, and Basketball
+- **Smart Rep Counting** – Automatic rep detection for strength workouts
+- **Movement Feedback** – Instant warnings for form issues, symmetry, and posture
+- **Session History** – Track and review all your past workouts with detailed metrics
+- **Performance Analytics** – Visualize trends, reps, duration, and movement flags
+- **Demo Mode** – Explore the app with realistic sample data without needing a camera
+- **Dark Theme UI** – Clean, modern interface built with Tailwind CSS
 
-## Installation
+## Tech Stack
+
+- **Frontend:** React 19 + TypeScript + Vite
+- **Styling:** Tailwind CSS + Framer Motion
+- **AI/Vision:** MediaPipe Pose Landmarker
+- **Charts:** Recharts
+- **Icons:** Lucide React
+- **Storage:** localStorage (client-side only)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Femina23/AthleteGuard-AI.git
+cd AthleteGuard-AI/athlete-guard-ai
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
-## Build
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
 
 ```bash
 npm run build
+npm run preview
 ```
 
-## Demo Instructions
+## Usage
 
-1. Open the application in your browser
-2. Click "Get Started" or navigate to Sports Selection
-3. Choose a sport (Strength Training recommended for demo)
-4. Click "Start Live Monitoring"
-5. Allow camera access when prompted
-6. Click "Start Camera" then "Start Monitoring"
-7. Perform squats in front of the camera
-8. View real-time metrics, joint angles, and movement feedback
-9. Stop monitoring to save the session
-10. Check Dashboard, Analytics, and History pages
+1. **Login/Dashboard** – Get an overview of your training stats
+2. **Select Sport** – Choose from Strength Training, Running, or Basketball
+3. **Start Monitoring** – Enable camera and begin live AI analysis
+4. **Get Feedback** – View joint angles, rep counts, and real-time form corrections
+5. **Review History** – Check past sessions in History or dive into Analytics
 
-## Limitations
+## Privacy
 
-- Movement analysis is rule-based and educational only
-- Not a medical diagnosis tool
-- Requires good lighting and camera positioning
-- MediaPipe model loads from CDN (requires internet)
-- Performance depends on device capabilities
+All data is stored locally in your browser via `localStorage`. No data is sent to external servers. Camera processing happens entirely on-device using MediaPipe.
 
-## Architecture
+## License
 
-- Frontend: React + Vite + TypeScript
-- Styling: Tailwind CSS
-- Icons: Lucide React
-- Animations: Framer Motion
-- Charts: Recharts
-- AI: MediaPipe Pose Landmarker (browser-based)
-- Storage: Browser localStorage
+This project is for educational purposes.
+
+## Author
+
+[Femina23](https://github.com/Femina23)
