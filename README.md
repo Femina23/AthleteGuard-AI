@@ -270,9 +270,9 @@ This project is developed for educational and academic purposes. See the reposit
 
 ---
 
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/Femina23">Femina23</a>
-</p>
+## Author
+
+**Femina**  
 
 <p align="center">
   <strong>Train Smarter. Move Better. Perform Stronger.</strong>
